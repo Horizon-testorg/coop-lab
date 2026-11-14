@@ -1,7 +1,7 @@
 #include <cstdio>
 
 // 共享逻辑：所有车都用，数值以后从 yaml 读
-int defaultSpeed() { return 100; }
+int defaultSpeed() { return 120; }
 
 // 车型结构差异：用宏
 void initExtra() {
